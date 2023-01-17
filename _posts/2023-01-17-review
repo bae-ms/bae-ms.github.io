@@ -1,0 +1,16 @@
+---
+layout: single
+title:  "용어정리"
+---
+
+* 
+<br/>
+void sayHelloWorld(int noOfTimes)  <br/>
+ -> noOfTimes 는 parameters(매개변수)  <br/>
+
+여기서 sayHelloWorld(7) 에서 7은 Arguments(인자)  <br/>
+<br/>
+parameters는 method 코드 내에서 사용
+<br/>
+Arguments(Values Passed) vs Parameters(Method Definition)  <br/>
+인자는 메서드를 발동할 때, 호출할 때, 실행할 때 쓱 매개변수는 메서드를 정의하거나 선언할 때 
