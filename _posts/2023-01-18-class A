@@ -3,7 +3,8 @@ layout: single
 title:  "어떻게 작동하는가"
 ---
  
- 
+ *작동 원리
+ <br/>
  class A{
    ...>     void B(){
    ...>         System.out.println("C");
@@ -11,16 +12,16 @@ title:  "어떻게 작동하는가"
    ...> }
 |  modified class A
 
-
+<br/>
 jshell> A d = new A()
 d ==> A@1e81f4dc
-
+<br/>
 jshell> A e = new A()
 e ==> A@65ae6ba4
-
+<br/>
 jshell> A f = new A()
 f ==> A@59f95c5d
-
+<br/>
 e.B()
 C
 
