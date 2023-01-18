@@ -1,0 +1,26 @@
+---
+layout: single
+title:  "어떻게 작동하는가"
+---
+ 
+ 
+ class A{
+   ...>     void B(){
+   ...>         System.out.println("C");
+   ...>     }
+   ...> }
+|  modified class A
+
+
+jshell> A d = new A()
+d ==> A@1e81f4dc
+
+jshell> A e = new A()
+e ==> A@65ae6ba4
+
+jshell> A f = new A()
+f ==> A@59f95c5d
+
+e.B()
+C
+
